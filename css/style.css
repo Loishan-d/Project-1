@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -198,11 +199,11 @@ a{
     padding: 30px;
 }
 .metadata-sidebar h2{
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 .metadata-sidebar h3{
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -229,7 +230,7 @@ a{
 }
 
 /* Mobile */
-@media (max-width: 767px){
+@media (max-width: 768px){
 
     /* Header */
     .site-header{
@@ -309,10 +310,15 @@ a{
         margin: 20px auto;
     }
     .metadata-sidebar{
+        text-align: center;
         padding: 20px;
     }
     .metadata-sidebar p{
         margin-bottom: 10px;
+    }
+    .metadata-sidebar ul{
+        list-style-position: inside;
+        padding-left: 0;
     }
 
     /* Footer */
